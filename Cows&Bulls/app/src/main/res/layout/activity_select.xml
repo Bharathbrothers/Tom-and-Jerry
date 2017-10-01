@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tomjerry"
+    tools:context="com.starks.cowsbulls.SelectActivity">
+
+
+    <Button
+        android:id="@+id/buttonmulti"
+        android:layout_width="368dp"
+        android:layout_height="48dp"
+        android:layout_alignLeft="@+id/buttonsingle"
+        android:layout_alignStart="@+id/buttonsingle"
+        android:layout_below="@+id/buttonsingle"
+        android:layout_marginTop="36dp"
+        android:background="@android:color/holo_blue_dark"
+        android:fontFamily="casual"
+        android:paddingLeft="5px"
+        android:paddingRight="5px"
+        android:text="Multi Player"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="172dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/buttonsingle"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/buttonsingle"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Select Game Type"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17" />
+
+    <Button
+        android:id="@+id/buttonsingle"
+        android:layout_width="368dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="144dp"
+        android:background="@android:color/holo_blue_dark"
+        android:fontFamily="casual"
+        android:paddingLeft="5px"
+        android:paddingRight="5px"
+        android:text="Single Player"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="172dp" />
+
+</RelativeLayout>
